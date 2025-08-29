@@ -87,7 +87,9 @@ const Index = () => {
           {/* Social Links */}
           <div className="flex justify-center gap-4">
             <Button variant="ghost" size="icon" className="hover:text-primary">
-              <Linkedin className="w-5 h-5" href="https://www.linkedin.com/in/mearaf-tadewos-634228174/"/>
+              <a href="https://www.linkedin.com/in/mearaf-tadewos-634228174/">
+                <Linkedin className="w-5 h-5" />
+              </a>
             </Button>
             <Button variant="ghost" size="icon" className="hover:text-primary">
               <Twitter className="w-5 h-5" />
