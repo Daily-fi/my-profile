@@ -34,7 +34,7 @@ const Index = () => {
             </h2>
             <div className="flex flex-wrap gap-2 justify-center mb-6">
               <Badge variant="secondary" className="text-sm">Founder</Badge>
-              <Badge variant="secondary" className="text-sm">AI Enthusiast</Badge>
+              <Badge variant="secondary" className="text-sm">AI & Blockchain</Badge>
               <Badge variant="secondary" className="text-sm">Sustainability Advocate</Badge>
             </div>
           </div>
@@ -47,7 +47,7 @@ const Index = () => {
             </p>
           </div>
 
-          {/* CTA Buttons */}
+          {/* CTA Buttons */} 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button 
               variant="hero"
@@ -65,6 +65,7 @@ const Index = () => {
                 <ExternalLink className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </a>
             </Button>
+            
             <Button 
               variant="outline"
               size="lg"
@@ -72,7 +73,7 @@ const Index = () => {
               className="hover:bg-gradient-hero hover:text-white hover:border-transparent transition-all duration-300"
             >
               <a 
-                href="https://www.linkedin.com/in/mearaf-tadewos-634228174/" 
+                href="https://medium.com/@mearaftadewos/sustainably-thriving-borderless-city-0642fa6f8eca" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
@@ -86,7 +87,7 @@ const Index = () => {
           {/* Social Links */}
           <div className="flex justify-center gap-4">
             <Button variant="ghost" size="icon" className="hover:text-primary">
-              <Linkedin className="w-5 h-5" />
+              <Linkedin className="w-5 h-5" href="https://www.linkedin.com/in/mearaf-tadewos-634228174/"/>
             </Button>
             <Button variant="ghost" size="icon" className="hover:text-primary">
               <Twitter className="w-5 h-5" />
