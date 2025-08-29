@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 225 25% 8%;
+    --foreground: 210 40% 98%;
+
+    --card: 225 25% 10%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 225 25% 10%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 270 100% 70%;
+    --primary-foreground: 225 25% 8%;
+
+    --secondary: 225 25% 15%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 225 25% 12%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 180 100% 70%;
+    --accent-foreground: 225 25% 8%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 225 25% 20%;
+    --input: 225 25% 15%;
+    --ring: 270 100% 70%;
+
+    /* Custom gradient colors */
+    --gradient-from: 270 100% 70%;
+    --gradient-to: 180 100% 70%;
+    
+    /* Hero section colors */
+    --hero-primary: 270 100% 75%;
+    --hero-secondary: 180 100% 75%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 225 25% 6%;
+    --foreground: 210 40% 98%;
+
+    --card: 225 25% 8%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 225 25% 8%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 270 100% 75%;
+    --primary-foreground: 225 25% 6%;
+
+    --secondary: 225 25% 12%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 225 25% 10%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 180 100% 75%;
+    --accent-foreground: 225 25% 6%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 225 25% 18%;
+    --input: 225 25% 12%;
+    --ring: 270 100% 75%;
+
+    /* Custom gradient colors for dark mode */
+    --gradient-from: 270 100% 75%;
+    --gradient-to: 180 100% 75%;
+    
+    /* Hero section colors for dark mode */
+    --hero-primary: 270 100% 80%;
+    --hero-secondary: 180 100% 80%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
