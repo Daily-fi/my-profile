@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Lamp, Twitter, Github, Mail } from "lucide-react";
+import { ExternalLink, Lamp, Linkedin, Twitter, Github, Mail } from "lucide-react";
 // Using uploaded founder photo
 
 const Index = () => {
