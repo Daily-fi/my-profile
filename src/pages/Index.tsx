@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Linkedin, Twitter, Github, Mail } from "lucide-react";
+import { ExternalLink, Lamp, Twitter, Github, Mail } from "lucide-react";
 // Using uploaded founder photo
 
 const Index = () => {
@@ -78,8 +78,8 @@ const Index = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
               >
-                <Linkedin className="w-4 h-4" />
-                Connect on LinkedIn
+                <Lamp className="w-4 h-4" />
+                Inspiration & Vision
               </a>
             </Button>
           </div>
